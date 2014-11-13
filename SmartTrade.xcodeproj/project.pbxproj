@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		482E4AF51A14E46B00FCDDAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482E4AF41A14E46B00FCDDAD /* main.m */; };
+		482E4AF81A14E46B00FCDDAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 482E4AF71A14E46B00FCDDAD /* AppDelegate.m */; };
+		482E4AFB1A14E46B00FCDDAD /* SmartTrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 482E4AF91A14E46B00FCDDAD /* SmartTrade.xcdatamodeld */; };
+		482E4AFE1A14E46B00FCDDAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482E4AFD1A14E46B00FCDDAD /* ViewController.m */; };
+		482E4B011A14E46B00FCDDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482E4AFF1A14E46B00FCDDAD /* Main.storyboard */; };
+		482E4B031A14E46B00FCDDAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482E4B021A14E46B00FCDDAD /* Images.xcassets */; };
+		482E4B061A14E46B00FCDDAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 482E4B041A14E46B00FCDDAD /* LaunchScreen.xib */; };
+		482E4B121A14E46B00FCDDAD /* SmartTradeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482E4B111A14E46B00FCDDAD /* SmartTradeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		482E4B0C1A14E46B00FCDDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482E4AE71A14E46B00FCDDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 482E4AEE1A14E46B00FCDDAD;
+			remoteInfo = SmartTrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		482E4AEF1A14E46B00FCDDAD /* SmartTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		482E4AF31A14E46B00FCDDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482E4AF41A14E46B00FCDDAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		482E4AF61A14E46B00FCDDAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		482E4AF71A14E46B00FCDDAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		482E4AFA1A14E46B00FCDDAD /* SmartTrade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartTrade.xcdatamodel; sourceTree = "<group>"; };
+		482E4AFC1A14E46B00FCDDAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		482E4AFD1A14E46B00FCDDAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		482E4B001A14E46B00FCDDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		482E4B021A14E46B00FCDDAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		482E4B051A14E46B00FCDDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		482E4B0B1A14E46B00FCDDAD /* SmartTradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482E4B101A14E46B00FCDDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		482E4B111A14E46B00FCDDAD /* SmartTradeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTradeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		482E4AEC1A14E46B00FCDDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482E4B081A14E46B00FCDDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482E4AE61A14E46B00FCDDAD = {
+			isa = PBXGroup;
+			children = (
+				482E4AF11A14E46B00FCDDAD /* SmartTrade */,
+				482E4B0E1A14E46B00FCDDAD /* SmartTradeTests */,
+				482E4AF01A14E46B00FCDDAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		482E4AF01A14E46B00FCDDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				482E4AEF1A14E46B00FCDDAD /* SmartTrade.app */,
+				482E4B0B1A14E46B00FCDDAD /* SmartTradeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		482E4AF11A14E46B00FCDDAD /* SmartTrade */ = {
+			isa = PBXGroup;
+			children = (
+				482E4AF61A14E46B00FCDDAD /* AppDelegate.h */,
+				482E4AF71A14E46B00FCDDAD /* AppDelegate.m */,
+				482E4AFC1A14E46B00FCDDAD /* ViewController.h */,
+				482E4AFD1A14E46B00FCDDAD /* ViewController.m */,
+				482E4AFF1A14E46B00FCDDAD /* Main.storyboard */,
+				482E4B021A14E46B00FCDDAD /* Images.xcassets */,
+				482E4B041A14E46B00FCDDAD /* LaunchScreen.xib */,
+				482E4AF91A14E46B00FCDDAD /* SmartTrade.xcdatamodeld */,
+				482E4AF21A14E46B00FCDDAD /* Supporting Files */,
+			);
+			path = SmartTrade;
+			sourceTree = "<group>";
+		};
+		482E4AF21A14E46B00FCDDAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				482E4AF31A14E46B00FCDDAD /* Info.plist */,
+				482E4AF41A14E46B00FCDDAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		482E4B0E1A14E46B00FCDDAD /* SmartTradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				482E4B111A14E46B00FCDDAD /* SmartTradeTests.m */,
+				482E4B0F1A14E46B00FCDDAD /* Supporting Files */,
+			);
+			path = SmartTradeTests;
+			sourceTree = "<group>";
+		};
+		482E4B0F1A14E46B00FCDDAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				482E4B101A14E46B00FCDDAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		482E4AEE1A14E46B00FCDDAD /* SmartTrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482E4B151A14E46B00FCDDAD /* Build configuration list for PBXNativeTarget "SmartTrade" */;
+			buildPhases = (
+				482E4AEB1A14E46B00FCDDAD /* Sources */,
+				482E4AEC1A14E46B00FCDDAD /* Frameworks */,
+				482E4AED1A14E46B00FCDDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTrade;
+			productName = SmartTrade;
+			productReference = 482E4AEF1A14E46B00FCDDAD /* SmartTrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		482E4B0A1A14E46B00FCDDAD /* SmartTradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482E4B181A14E46B00FCDDAD /* Build configuration list for PBXNativeTarget "SmartTradeTests" */;
+			buildPhases = (
+				482E4B071A14E46B00FCDDAD /* Sources */,
+				482E4B081A14E46B00FCDDAD /* Frameworks */,
+				482E4B091A14E46B00FCDDAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				482E4B0D1A14E46B00FCDDAD /* PBXTargetDependency */,
+			);
+			name = SmartTradeTests;
+			productName = SmartTradeTests;
+			productReference = 482E4B0B1A14E46B00FCDDAD /* SmartTradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		482E4AE71A14E46B00FCDDAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Gab;
+				TargetAttributes = {
+					482E4AEE1A14E46B00FCDDAD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					482E4B0A1A14E46B00FCDDAD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 482E4AEE1A14E46B00FCDDAD;
+					};
+				};
+			};
+			buildConfigurationList = 482E4AEA1A14E46B00FCDDAD /* Build configuration list for PBXProject "SmartTrade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 482E4AE61A14E46B00FCDDAD;
+			productRefGroup = 482E4AF01A14E46B00FCDDAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				482E4AEE1A14E46B00FCDDAD /* SmartTrade */,
+				482E4B0A1A14E46B00FCDDAD /* SmartTradeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		482E4AED1A14E46B00FCDDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482E4B011A14E46B00FCDDAD /* Main.storyboard in Resources */,
+				482E4B061A14E46B00FCDDAD /* LaunchScreen.xib in Resources */,
+				482E4B031A14E46B00FCDDAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482E4B091A14E46B00FCDDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		482E4AEB1A14E46B00FCDDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482E4AF81A14E46B00FCDDAD /* AppDelegate.m in Sources */,
+				482E4AF51A14E46B00FCDDAD /* main.m in Sources */,
+				482E4AFE1A14E46B00FCDDAD /* ViewController.m in Sources */,
+				482E4AFB1A14E46B00FCDDAD /* SmartTrade.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482E4B071A14E46B00FCDDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482E4B121A14E46B00FCDDAD /* SmartTradeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		482E4B0D1A14E46B00FCDDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 482E4AEE1A14E46B00FCDDAD /* SmartTrade */;
+			targetProxy = 482E4B0C1A14E46B00FCDDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		482E4AFF1A14E46B00FCDDAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482E4B001A14E46B00FCDDAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		482E4B041A14E46B00FCDDAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				482E4B051A14E46B00FCDDAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		482E4B131A14E46B00FCDDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		482E4B141A14E46B00FCDDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		482E4B161A14E46B00FCDDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		482E4B171A14E46B00FCDDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartTrade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		482E4B191A14E46B00FCDDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartTradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTrade.app/SmartTrade";
+			};
+			name = Debug;
+		};
+		482E4B1A1A14E46B00FCDDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartTradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartTrade.app/SmartTrade";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		482E4AEA1A14E46B00FCDDAD /* Build configuration list for PBXProject "SmartTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482E4B131A14E46B00FCDDAD /* Debug */,
+				482E4B141A14E46B00FCDDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482E4B151A14E46B00FCDDAD /* Build configuration list for PBXNativeTarget "SmartTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482E4B161A14E46B00FCDDAD /* Debug */,
+				482E4B171A14E46B00FCDDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		482E4B181A14E46B00FCDDAD /* Build configuration list for PBXNativeTarget "SmartTradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482E4B191A14E46B00FCDDAD /* Debug */,
+				482E4B1A1A14E46B00FCDDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		482E4AF91A14E46B00FCDDAD /* SmartTrade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				482E4AFA1A14E46B00FCDDAD /* SmartTrade.xcdatamodel */,
+			);
+			currentVersion = 482E4AFA1A14E46B00FCDDAD /* SmartTrade.xcdatamodel */;
+			path = SmartTrade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 482E4AE71A14E46B00FCDDAD /* Project object */;
+}
