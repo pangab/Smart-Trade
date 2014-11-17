@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481016EE1A1532660060A2A5 /* STJobTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 481016ED1A1532660060A2A5 /* STJobTableCell.m */; };
+		481016F61A1615300060A2A5 /* Jobs.m in Sources */ = {isa = PBXBuildFile; fileRef = 481016F51A1615300060A2A5 /* Jobs.m */; };
+		481016FA1A1632B30060A2A5 /* STDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481016F91A1632B30060A2A5 /* STDetailViewController.m */; };
+		481017001A164C1C0060A2A5 /* STDetailTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 481016FF1A164C1C0060A2A5 /* STDetailTitleView.m */; };
 		482E4AF51A14E46B00FCDDAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 482E4AF41A14E46B00FCDDAD /* main.m */; };
 		482E4AF81A14E46B00FCDDAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 482E4AF71A14E46B00FCDDAD /* AppDelegate.m */; };
 		482E4AFB1A14E46B00FCDDAD /* SmartTrade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 482E4AF91A14E46B00FCDDAD /* SmartTrade.xcdatamodeld */; };
@@ -15,6 +19,13 @@
 		482E4B031A14E46B00FCDDAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482E4B021A14E46B00FCDDAD /* Images.xcassets */; };
 		482E4B061A14E46B00FCDDAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 482E4B041A14E46B00FCDDAD /* LaunchScreen.xib */; };
 		482E4B121A14E46B00FCDDAD /* SmartTradeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482E4B111A14E46B00FCDDAD /* SmartTradeTests.m */; };
+		485861261A197E3200B45FCA /* STCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 485861241A197E3200B45FCA /* STCollectionViewCell.m */; };
+		485861271A197E3200B45FCA /* STCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 485861251A197E3200B45FCA /* STCollectionViewCell.xib */; };
+		48B5EEBC1A169C7D00BBD835 /* proxima-nova-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48B5EEB91A169C7D00BBD835 /* proxima-nova-bold.ttf */; };
+		48B5EEBD1A169C7D00BBD835 /* proxima-nova-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48B5EEBA1A169C7D00BBD835 /* proxima-nova-regular.ttf */; };
+		48B5EEBE1A169C7D00BBD835 /* proxima-nova-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48B5EEBB1A169C7D00BBD835 /* proxima-nova-semibold.ttf */; };
+		48C8165D1A180996006AFE1E /* STAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8165C1A180996006AFE1E /* STAddViewController.m */; };
+		48C816601A18F644006AFE1E /* STBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C8165F1A18F644006AFE1E /* STBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		481016EC1A1532660060A2A5 /* STJobTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STJobTableCell.h; sourceTree = "<group>"; };
+		481016ED1A1532660060A2A5 /* STJobTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STJobTableCell.m; sourceTree = "<group>"; };
+		481016F41A1615300060A2A5 /* Jobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jobs.h; sourceTree = "<group>"; };
+		481016F51A1615300060A2A5 /* Jobs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jobs.m; sourceTree = "<group>"; };
+		481016F81A1632B30060A2A5 /* STDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDetailViewController.h; sourceTree = "<group>"; };
+		481016F91A1632B30060A2A5 /* STDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDetailViewController.m; sourceTree = "<group>"; };
+		481016FE1A164C1C0060A2A5 /* STDetailTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STDetailTitleView.h; sourceTree = "<group>"; };
+		481016FF1A164C1C0060A2A5 /* STDetailTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STDetailTitleView.m; sourceTree = "<group>"; };
 		482E4AEF1A14E46B00FCDDAD /* SmartTrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482E4AF31A14E46B00FCDDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482E4AF41A14E46B00FCDDAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +61,16 @@
 		482E4B0B1A14E46B00FCDDAD /* SmartTradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartTradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		482E4B101A14E46B00FCDDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		482E4B111A14E46B00FCDDAD /* SmartTradeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartTradeTests.m; sourceTree = "<group>"; };
+		485861231A197E3200B45FCA /* STCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCollectionViewCell.h; sourceTree = "<group>"; };
+		485861241A197E3200B45FCA /* STCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCollectionViewCell.m; sourceTree = "<group>"; };
+		485861251A197E3200B45FCA /* STCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCollectionViewCell.xib; sourceTree = "<group>"; };
+		48B5EEB91A169C7D00BBD835 /* proxima-nova-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-bold.ttf"; sourceTree = "<group>"; };
+		48B5EEBA1A169C7D00BBD835 /* proxima-nova-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-regular.ttf"; sourceTree = "<group>"; };
+		48B5EEBB1A169C7D00BBD835 /* proxima-nova-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-semibold.ttf"; sourceTree = "<group>"; };
+		48C8165B1A180996006AFE1E /* STAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAddViewController.h; sourceTree = "<group>"; };
+		48C8165C1A180996006AFE1E /* STAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAddViewController.m; sourceTree = "<group>"; };
+		48C8165E1A18F644006AFE1E /* STBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBarButtonItem.h; sourceTree = "<group>"; };
+		48C8165F1A18F644006AFE1E /* STBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBarButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +91,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		481016F21A1614160060A2A5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				482E4AFC1A14E46B00FCDDAD /* ViewController.h */,
+				482E4AFD1A14E46B00FCDDAD /* ViewController.m */,
+				481016F81A1632B30060A2A5 /* STDetailViewController.h */,
+				481016F91A1632B30060A2A5 /* STDetailViewController.m */,
+				48C8165B1A180996006AFE1E /* STAddViewController.h */,
+				48C8165C1A180996006AFE1E /* STAddViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		481016F31A1614350060A2A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				481016EC1A1532660060A2A5 /* STJobTableCell.h */,
+				481016ED1A1532660060A2A5 /* STJobTableCell.m */,
+				481016FE1A164C1C0060A2A5 /* STDetailTitleView.h */,
+				481016FF1A164C1C0060A2A5 /* STDetailTitleView.m */,
+				48C8165E1A18F644006AFE1E /* STBarButtonItem.h */,
+				48C8165F1A18F644006AFE1E /* STBarButtonItem.m */,
+				485861231A197E3200B45FCA /* STCollectionViewCell.h */,
+				485861241A197E3200B45FCA /* STCollectionViewCell.m */,
+				485861251A197E3200B45FCA /* STCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		481016F71A1615E20060A2A5 /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				481016F41A1615300060A2A5 /* Jobs.h */,
+				481016F51A1615300060A2A5 /* Jobs.m */,
+			);
+			name = "Model Class";
+			sourceTree = "<group>";
+		};
 		482E4AE61A14E46B00FCDDAD = {
 			isa = PBXGroup;
 			children = (
@@ -83,14 +150,16 @@
 		482E4AF11A14E46B00FCDDAD /* SmartTrade */ = {
 			isa = PBXGroup;
 			children = (
+				48B5EEB81A169C5D00BBD835 /* Resources */,
+				481016F21A1614160060A2A5 /* ViewControllers */,
+				481016F31A1614350060A2A5 /* Views */,
+				481016F71A1615E20060A2A5 /* Model Class */,
 				482E4AF61A14E46B00FCDDAD /* AppDelegate.h */,
 				482E4AF71A14E46B00FCDDAD /* AppDelegate.m */,
-				482E4AFC1A14E46B00FCDDAD /* ViewController.h */,
-				482E4AFD1A14E46B00FCDDAD /* ViewController.m */,
 				482E4AFF1A14E46B00FCDDAD /* Main.storyboard */,
+				482E4AF91A14E46B00FCDDAD /* SmartTrade.xcdatamodeld */,
 				482E4B021A14E46B00FCDDAD /* Images.xcassets */,
 				482E4B041A14E46B00FCDDAD /* LaunchScreen.xib */,
-				482E4AF91A14E46B00FCDDAD /* SmartTrade.xcdatamodeld */,
 				482E4AF21A14E46B00FCDDAD /* Supporting Files */,
 			);
 			path = SmartTrade;
@@ -120,6 +189,16 @@
 				482E4B101A14E46B00FCDDAD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48B5EEB81A169C5D00BBD835 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48B5EEB91A169C7D00BBD835 /* proxima-nova-bold.ttf */,
+				48B5EEBA1A169C7D00BBD835 /* proxima-nova-regular.ttf */,
+				48B5EEBB1A169C7D00BBD835 /* proxima-nova-semibold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +281,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48B5EEBC1A169C7D00BBD835 /* proxima-nova-bold.ttf in Resources */,
 				482E4B011A14E46B00FCDDAD /* Main.storyboard in Resources */,
+				48B5EEBD1A169C7D00BBD835 /* proxima-nova-regular.ttf in Resources */,
 				482E4B061A14E46B00FCDDAD /* LaunchScreen.xib in Resources */,
+				48B5EEBE1A169C7D00BBD835 /* proxima-nova-semibold.ttf in Resources */,
+				485861271A197E3200B45FCA /* STCollectionViewCell.xib in Resources */,
 				482E4B031A14E46B00FCDDAD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,8 +307,15 @@
 			files = (
 				482E4AF81A14E46B00FCDDAD /* AppDelegate.m in Sources */,
 				482E4AF51A14E46B00FCDDAD /* main.m in Sources */,
+				485861261A197E3200B45FCA /* STCollectionViewCell.m in Sources */,
+				481016EE1A1532660060A2A5 /* STJobTableCell.m in Sources */,
+				481016F61A1615300060A2A5 /* Jobs.m in Sources */,
 				482E4AFE1A14E46B00FCDDAD /* ViewController.m in Sources */,
+				481017001A164C1C0060A2A5 /* STDetailTitleView.m in Sources */,
+				481016FA1A1632B30060A2A5 /* STDetailViewController.m in Sources */,
+				48C816601A18F644006AFE1E /* STBarButtonItem.m in Sources */,
 				482E4AFB1A14E46B00FCDDAD /* SmartTrade.xcdatamodeld in Sources */,
+				48C8165D1A180996006AFE1E /* STAddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +508,7 @@
 				482E4B171A14E46B00FCDDAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		482E4B181A14E46B00FCDDAD /* Build configuration list for PBXNativeTarget "SmartTradeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +517,7 @@
 				482E4B1A1A14E46B00FCDDAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

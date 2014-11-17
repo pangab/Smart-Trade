@@ -7,9 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "STBarButtonItem.h"
+
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+@property (weak, nonatomic) IBOutlet UIButton *payButton;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
+@property (weak, nonatomic) IBOutlet STBarButtonItem *leftBarButton;
+@property (weak, nonatomic) IBOutlet STBarButtonItem *rightBarButton;
+
+- (IBAction)popAdd:(id)sender;
+
+- (void) openAdd;
+
 
 @end
-
