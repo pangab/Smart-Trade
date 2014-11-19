@@ -467,14 +467,14 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyeBlue" translatesAutoresizingMaskIntoConstraints="NO" id="1V0-H5-7DN">
-                                                <rect key="frame" x="275" y="10" width="15" height="10"/>
+                                                <rect key="frame" x="275" y="23" width="15" height="10"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="10" id="0lH-48-PCI"/>
                                                     <constraint firstAttribute="width" constant="15" id="Nfn-Q8-AoQ"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqc-7j-hpY" userLabel="startDate">
-                                                <rect key="frame" x="20" y="16" width="35" height="18"/>
+                                                <rect key="frame" x="20" y="19" width="35" height="18"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="14"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -492,18 +492,19 @@
                                             <constraint firstItem="6Bh-Un-MmS" firstAttribute="leading" secondItem="8fP-rN-BGj" secondAttribute="leading" constant="20" id="Ait-7N-P1s"/>
                                             <constraint firstItem="NmJ-RE-MtT" firstAttribute="top" secondItem="6Bh-Un-MmS" secondAttribute="bottom" constant="8" id="InE-j9-fAj"/>
                                             <constraint firstItem="Psp-pD-LJD" firstAttribute="leading" secondItem="6Bh-Un-MmS" secondAttribute="trailing" constant="5" id="aiW-IH-doG" userLabel="Leading Alignment - (214) - 2014 - endDate"/>
+                                            <constraint firstItem="1V0-H5-7DN" firstAttribute="centerY" secondItem="oqc-7j-hpY" secondAttribute="centerY" id="iCo-OZ-CRx"/>
                                             <constraint firstItem="NmJ-RE-MtT" firstAttribute="leading" secondItem="8fP-rN-BGj" secondAttribute="leading" constant="20" id="ik1-bZ-lrB"/>
                                             <constraint firstItem="ik6-nF-67t" firstAttribute="leading" secondItem="NmJ-RE-MtT" secondAttribute="trailing" constant="2" id="kjq-xk-tj0"/>
                                             <constraint firstItem="Psp-pD-LJD" firstAttribute="centerY" secondItem="6Bh-Un-MmS" secondAttribute="centerY" id="pgr-ce-Igg"/>
                                             <constraint firstItem="ik6-nF-67t" firstAttribute="centerY" secondItem="NmJ-RE-MtT" secondAttribute="centerY" id="sVd-81-x4k"/>
-                                            <constraint firstItem="oqc-7j-hpY" firstAttribute="bottom" secondItem="6Bh-Un-MmS" secondAttribute="top" constant="-5" id="uvk-ur-ia3"/>
+                                            <constraint firstItem="oqc-7j-hpY" firstAttribute="bottom" secondItem="6Bh-Un-MmS" secondAttribute="top" constant="-2" id="uvk-ur-ia3"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cMu-Vj-01u" userLabel="secondView">
                                         <rect key="frame" x="301" y="33" width="299" height="103"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcn-6S-5lT" userLabel="firstName">
-                                                <rect key="frame" x="20" y="14" width="42" height="21"/>
+                                                <rect key="frame" x="20" y="18" width="42" height="21"/>
                                                 <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
@@ -522,7 +523,7 @@
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyeBlue" translatesAutoresizingMaskIntoConstraints="NO" id="NiE-3W-po3">
-                                                <rect key="frame" x="273" y="10" width="15" height="10"/>
+                                                <rect key="frame" x="273" y="23" width="15" height="10"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="15" id="XUx-HG-aE3"/>
                                                     <constraint firstAttribute="height" constant="10" id="c87-mD-sdW"/>
@@ -539,7 +540,6 @@
                                         <constraints>
                                             <constraint firstItem="Pcn-6S-5lT" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="NiE-3W-po3" secondAttribute="leading" id="BBy-H1-XME"/>
                                             <constraint firstItem="Pcn-6S-5lT" firstAttribute="leading" secondItem="cMu-Vj-01u" secondAttribute="leading" constant="20" id="Oer-Tt-qJg"/>
-                                            <constraint firstItem="Pcn-6S-5lT" firstAttribute="bottom" secondItem="aQg-s3-Vk1" secondAttribute="top" constant="-2" id="SoM-8b-Hhp"/>
                                             <constraint firstAttribute="trailing" secondItem="K6K-s1-Aec" secondAttribute="trailing" id="Tnb-XT-GbY"/>
                                             <constraint firstItem="iKI-I7-8yP" firstAttribute="centerY" secondItem="K6K-s1-Aec" secondAttribute="centerY" constant="1" id="fFx-LH-hgs"/>
                                             <constraint firstItem="aQg-s3-Vk1" firstAttribute="leading" secondItem="cMu-Vj-01u" secondAttribute="leading" constant="20" id="hwm-8g-d3G"/>
@@ -572,10 +572,16 @@
                                     <constraint firstItem="ftW-uV-QRb" firstAttribute="leading" secondItem="yPX-PX-qEQ" secondAttribute="leading" constant="10" id="Xku-hY-reg"/>
                                     <constraint firstItem="u4a-bQ-DKU" firstAttribute="top" secondItem="yPX-PX-qEQ" secondAttribute="top" constant="-5" id="cXS-6s-A0V"/>
                                     <constraint firstItem="ftW-uV-QRb" firstAttribute="top" secondItem="u4a-bQ-DKU" secondAttribute="bottom" constant="7" id="dah-hw-tSM"/>
+                                    <constraint firstItem="Pcn-6S-5lT" firstAttribute="centerY" secondItem="oqc-7j-hpY" secondAttribute="centerY" constant="1" id="ege-Px-H3G"/>
                                     <constraint firstAttribute="bottom" secondItem="8fP-rN-BGj" secondAttribute="bottom" id="ht6-IX-etL"/>
                                     <constraint firstItem="1V0-H5-7DN" firstAttribute="trailing" secondItem="mvF-zq-qfE" secondAttribute="leading" constant="-10" id="kVN-60-GNN"/>
                                     <constraint firstItem="iKI-I7-8yP" firstAttribute="centerY" secondItem="NmJ-RE-MtT" secondAttribute="centerY" id="suM-pi-b72"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="2aa-hZ-fcN"/>
+                                    </mask>
+                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPy-Xd-kkR" userLabel="textField">
                                 <rect key="frame" x="0.0" y="201" width="600" height="53"/>

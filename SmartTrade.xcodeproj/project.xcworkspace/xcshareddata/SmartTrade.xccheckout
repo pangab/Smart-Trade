@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E542B7B6-FB2D-4C57-857F-3C04A8350997</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SmartTrade</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F1361293C4115E041682C4441DB871271398D506</key>
+		<string>github.com:pangab/Smart-Trade.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SmartTrade.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F1361293C4115E041682C4441DB871271398D506</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:pangab/Smart-Trade.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F1361293C4115E041682C4441DB871271398D506</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F1361293C4115E041682C4441DB871271398D506</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SmartTrade</string>
+		</dict>
+	</array>
+</dict>
+</plist>
